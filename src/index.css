@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-family: Inter;
+}
+.logo-name > i {
+  font-size: 1.7rem;
+}
+.main-image-container {
+  flex-shrink: 0;
+  width: 125px;
+  height: 168px;
+}
+.images {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.2rem;
+}
+.main-content {
+  padding: 3rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.location-sec {
+  display: flex;
+  gap: 0.3rem;
+}
+.date {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  border: none;
+  color: blue;
+}
