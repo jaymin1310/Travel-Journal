@@ -3,6 +3,7 @@ body {
 }
 .header {
   width: 100%;
+  height: 4.3rem;
   background-color: #f55a5a;
   display: flex;
   justify-content: center;
@@ -31,19 +32,21 @@ body {
   border-radius: 0.2rem;
 }
 .main-content {
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .location-sec {
   display: flex;
   gap: 0.3rem;
-}
-.date {
-  font-weight: bold;
+  font-size: 1.1rem;
 }
 a {
   text-decoration: none;
   border: none;
   color: blue;
+}
+p {
+  font-size: 1.1rem;
 }
